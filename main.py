@@ -10,10 +10,10 @@ import time
 from datetime import datetime
 #from database.users_chats_db import db
 
-API_ID = "9303922"
-API_HASH = "a17677495aa9ae010b897c2d65146282"
+API_ID = "21581573"
+API_HASH = "554c8781bfff196b38d7ba8e105004d4"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = "mongodb+srv://bhai33:bhai33@cluster0.yg4foin.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URL = "mongodb+srv://<jatinsharma>:<jatinsharma>@cluster0.vfn9ehc.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = os.environ.get("DATABASE_NAME") 
 BOT_USERNAME = os.environ.get("BOT_USERNAME")
 BOT_NAME = os.environ.get("BOT_NAME")
@@ -39,6 +39,7 @@ async def is_admins(chat_id: int):
 EMOJIOS = [ 
       "🌿",
       "⚡",
+      "🌺",
 ]
       
 START = f"""
