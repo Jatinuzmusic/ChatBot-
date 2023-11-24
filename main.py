@@ -13,7 +13,7 @@ from datetime import datetime
 API_ID = "21581573"
 API_HASH = "554c8781bfff196b38d7ba8e105004d4"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = "mongodb+srv://<jatinsharma>:<jatinsharma>@cluster0.vfn9ehc.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URL = "mongodb+srv://<jatinsharma>:<jatinsharma>@cluster0.vfn9ehc.mongodb.net/?retryWrites=true&w=majority
 DATABASE_NAME = os.environ.get("DATABASE_NAME") 
 BOT_USERNAME = os.environ.get("BOT_USERNAME")
 BOT_NAME = os.environ.get("BOT_NAME")
@@ -39,7 +39,6 @@ async def is_admins(chat_id: int):
 EMOJIOS = [ 
       "🌿",
       "⚡",
-      "🌺",
 ]
       
 START = f"""
@@ -336,3 +335,4 @@ async def vickprivatesticker(client: Client, message: Message):
 print(f"🎄 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 𝗔𝗡𝗗 𝗙𝗨𝗖𝗞🎄 ")      
 bot.run()
 #@ Mr.Daxx
+
